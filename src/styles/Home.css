@@ -1,0 +1,64 @@
+.hero-section {
+	padding: 0 20px;
+	width: 100%;
+	min-height: 92vh;
+}
+.hero-content > * {
+	margin: 15px 0;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-bottom: 1rem;
+}
+.hero-content h2 {
+	font-family: Raleway;
+}
+p {
+	line-height: 150%;
+	font-size: 20px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+p .actor {
+	color: #4c4f8a;
+	font-weight: bold;
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	border: 1px transparent solid;
+	border-radius: 8px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #4c4f8a;
+	margin: 15px;
+	font-family: Roboto;
+}
+
+.feature-section {
+	text-align: center;
+	width: 100%;
+	padding: 70px 15px;
+}
+
+@media (min-width: 720px) {
+	.hero-section {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.hero-content {
+		max-width: 50%;
+		padding-right: 25px;
+	}
+}
+@media (max-width: 650px) {
+	body h1 {
+		font-size: 2rem;
+	}
+}

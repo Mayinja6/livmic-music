@@ -1,0 +1,17 @@
+footer {
+	background-color: #161623;
+	color: #fff;
+	padding: 50px 0;
+}
+footer h3 {
+	text-align: center;
+}
+footer h3 a {
+	color: #fff;
+	text-decoration: 2px underline;
+	padding: 0 2px;
+}
+footer h3 a:hover {
+	text-decoration: none;
+	color: #4c4f8a;
+}
