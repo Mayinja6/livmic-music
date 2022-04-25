@@ -1,3 +1,3 @@
-### LIVMIC MUSIC
+# LIVMIC MUSIC
 
-# My first ideal React project
+### My first ideal React project
